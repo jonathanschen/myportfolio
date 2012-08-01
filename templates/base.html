@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+{% load staticfiles %}
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Jonathan Chen's Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Le styles -->
+    <link href="{% static 'css/style.css' %}" rel="stylesheet">
+    <style type="text/css">
+      body {
+        padding-top: 60px;
+        padding-bottom: 40px;
+      }
+    </style>
+    <link href="{% static 'css/style.css' %}" rel="stylesheet">
+
+    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!-- Le fav and touch icons -->
+    <link rel="shortcut icon" href="../../assets/ico/favicon.ico">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="../assets/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="../assets/ico/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="../assets/ico/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="../assets/ico/apple-touch-icon-57-precomposed.png">
+    
+  </head>
+
+  <body>
+
+    <div class="navbar navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container">
+          <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </a>
+          <a class="brand" href="#">Jonathan Chen's Portfolio</a>
+          <div class="nav-collapse">
+            <ul class="nav">
+              <li><a href="{% url jonathanschen.views.index %}"><i class="icon-home icon-white"></i>Home</a></li>
+              <li><a href="/about/">About</a></li>
+              <li><a href="/portfolio/">Portfolio</a></li>
+              <li><a href="/blog/">Blog</a></li>
+              <li><a href="/contact/">Contact</a></li>
+            </ul>
+          </div><!--/.nav-collapse -->
+        </div>
+      </div>
+    </div>
+
+      <!-- Main Carousel -->
+<div class="slider">	
+	<div class="slider-inner">
+		<div class="container">
+			<div id="slider" class="carousel slide">
+				<div class="carousel-inner">
+					<div class="active item">
+						<img src="http://wbpreview.com/previews/WB087D504/img/slider.jpg">
+						<div class="carousel-caption">
+							<h4>Serenity</h4>
+							<p>Surrounded by nature. </p>
+						</div>
+					</div>
+					<div class="item">
+						<img src="{% static 'img/trees.jpg' %}">
+						<div class="carousel-caption">
+							<h4>Branches</h4>
+							<p>New directions in life.</p>
+						</div>
+					</div>
+					<div class="item">
+						<img src="{% static 'img/droplets.jpg' %}">
+						<div class="carousel-caption">
+							<h4>Water</h4>
+							<p>Rejuvenation.</p>
+						</div>
+					</div>
+				</div>
+				<a class="carousel-control left" data-slide="prev" href="#slider">&lsaquo;</a>
+				<a class="carousel-control right" data-slide="next" href="#slider">&rsaquo;</a>
+			</div>
+		</div>
+	</div>
+</div>
+
+{% block content %}{% endblock %}
+    
+
+<footer>
+	<div class="footer-inner">
+		<div class="container">
+			<div class="row">
+				<div class="span3">
+					<h4>Copyright &copy; 2012 JSC Ventures</h4>
+					<br>
+					All right are reserved.
+					<br>
+					<a href="#">Terms of Service</a>
+					|
+					<a href="#">Privacy Policy</a>
+				</div>
+				<div class="span3">
+					<h4>Contact Info</h4>
+					<br>
+					<a href = 'jonathanschen@gmail.com'>jonathanschen@gmail.com</a>
+					<p>T: 2012481556</p> 
+				</div>
+				<div class="span3">
+					<h4>Quick Navigation</h4>
+					<br>
+					<ul>
+						<li>
+							<a href="/about/">About</a>
+						</li>
+						<li>
+							<a href="/portfolio/">Portfolio</a>
+						</li>
+						<li>
+							<a href="/blog/">Blog</a>
+						</li>
+						<li>
+							<a href="/contact/">Contact</a>
+						</li>
+					</ul>
+				</div>
+				<div class="span3 social">
+					<h4>Connect with me</h4>
+					<br>
+					<a class="FB" title="Facebook" href="https://facebook.com/jonathan.chen.773"></a>
+					<a class="TW" title="Twitter" href="https://twitter.com/jonathanschen"></a>
+					<a class="GP" title="Google+" href="https://plus.google.com/106217840068821579169"></a>
+					<a class="LI" title="LinkedIn" href="http://linkedin.com/pub/jonathan-chen/8/669/728"></a>
+					<a class="feed" title="RSS Feed" href="#"></a>
+				</div>
+			</div>
+		</div>
+	</div>
+</footer>
+ 
+</body>
+      <!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="{% static 'js/jquery.js' %}"></script>
+    <script src="../assets/js/bootstrap-transition.js"></script>
+    <script src="../assets/js/bootstrap-alert.js"></script>
+    <script src="../assets/js/bootstrap-modal.js"></script>
+    <script src="../assets/js/bootstrap-dropdown.js"></script>
+    <script src="../assets/js/bootstrap-scrollspy.js"></script>
+    <script src="../assets/js/bootstrap-tab.js"></script>
+    <script src="../assets/js/bootstrap-tooltip.js"></script>
+    <script src="../assets/js/bootstrap-popover.js"></script>
+    <script src="../assets/js/bootstrap-button.js"></script>
+    <script src="../assets/js/bootstrap-collapse.js"></script>
+    <script src="{% static 'js/bootstrap-carousel.js' %}"></script>
+    <script src="../assets/js/bootstrap-typeahead.js"></script>
+</html>

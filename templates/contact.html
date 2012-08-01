@@ -1,0 +1,41 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<div class="container">
+	<div class="row">
+		<div class="span12">
+			<h2>Contact Me</h2>
+			<br>
+			<p>Always looking to connect with people on similar or different walks of life.  Feel free to reach out about anything.</p>
+			<form class="form-horizontal" action = '' method="POST">
+				{% csrf_token %}
+				<div class="control-group">
+					<label class="control-label">Name:</label>
+					<div class="controls">
+						<input class="input-xlarge span6" type="text" name="name" placeholder="Your Name">
+					</div>
+				</div>
+				<div class="control-group">
+					<label class="control-label">Email:</label>
+					<div class="controls">
+						<input class="input-xlarge span6" type="email" name="sender" placeholder="Your Email">
+					</div>
+				</div>
+				<div class="control-group">
+					<label class="control-label">Message:</label>
+					<div class="controls">
+						<textarea class="input-xlarge span6" name="message" placeholder="What would you like to chat about?" rows="3"></textarea>
+					</div>
+				</div>
+				<div class="control-group">
+					<div class="controls">
+						<button class="btn btn-primary" type="submit">Submit</button>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+
+{% endblock %}

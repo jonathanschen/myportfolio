@@ -1,0 +1,111 @@
+/* =======================================
+
+		Main Stylesheet for My-Bootstrap-Site
+		
+		Innovations on Twitter Bootstrap
+		
+========================================== */
+
+@import url('bootstrap.css');
+@import url('bootstrap-responsive.css');
+
+a {
+    color: #595959;
+ 
+}
+
+body{
+	margin-top: -20px
+
+}
+
+
+
+
+
+.btn-primary{
+	background-color: #595959;
+}
+
+.hero-unit {
+    margin-top: 30px;
+}
+
+.pagination a {
+    border-width: 3px 3px 3px 3px;
+	color: #FFFFFF;
+	background-color: #595959;  
+   }
+
+.slider-inner {
+    background: none repeat scroll 0 0 #3A3A3A;
+    border-bottom: 1px solid #000000;
+    padding-top: 22px;
+	height: 425px;
+	color: #404040
+	width: 100%;
+	margin-top: 0px;
+}
+
+.navbar-inner{
+	background: #111111;
+	color: #999999;
+    text-decoration: none;
+}
+
+footer {
+    border-top: 1px solid #292929;
+    margin-top: 20px;
+    margin-bottom: -40px;
+}
+
+.footer-inner {
+    background: none repeat scroll 0 0 #111111;
+    color: #999999;
+    font-size: 12px;
+    padding: 15px 0;
+}
+
+footer a {
+    color: #999999;
+    text-decoration: none;
+}
+
+footer a:hover{
+	color: #FFFFFF;
+	text-decoration: none;	
+}
+
+.FB{
+    background: url("http://www.etsuei.com/css/../images/social/16x16/Facebook.png") no-repeat scroll 0 0 transparent;
+    cursor: pointer;
+    float: left;
+    height: 16px;
+    width: 16px;
+    padding: 2px;
+}
+
+.TW {
+    background: url("http://www.etsuei.com/css/../images/social/16x16/Twitter.png") no-repeat scroll 0 0 transparent;
+    cursor: pointer;
+    float: left;
+    height: 16px;
+    width: 16px;
+    padding: 2px;
+}
+.LI {
+    background: url("http://www.etsuei.com/css/../images/social/16x16/LinkedIn.png") no-repeat scroll 0 0 transparent;
+    cursor: pointer;
+    float: left;
+    height: 16px;
+    width: 16px;
+    padding: 2px;
+}
+.GP {
+    background: url("//ssl.gstatic.com/images/icons/gplus-16.png") no-repeat scroll 0 0 transparent;
+    cursor: pointer;
+    float: left;
+    height: 16px;
+    width: 16px;
+    padding: 2px;
+}

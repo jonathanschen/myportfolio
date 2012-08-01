@@ -1,0 +1,1194 @@
+@font-face {
+    font-family: "FontAwesome";
+    font-style: normal;
+    font-weight: normal;
+    src: url("./font/fontawesome-webfont.eot?#iefix") format("eot"), url("./font/fontawesome-webfont.woff") format("woff"), url("./font/fontawesome-webfont.ttf") format("truetype"), url("./font/fontawesome-webfont.svg#FontAwesome") format("svg");
+}
+@font-face {
+    font-family: "SocialGlyphs";
+    font-style: normal;
+    font-weight: normal;
+    src: url("font/socialglyphs-webfont.eot?#iefix") format("embedded-opentype"), url("font/socialglyphs-webfont.woff") format("woff"), url("font/socialglyphs-webfont.ttf") format("truetype"), url("font/socialglyphs-webfont.svg#SocialGlyphsRegular") format("svg");
+}
+@font-face {
+    font-family: "Open Sans";
+    font-style: italic;
+    font-weight: 600;
+    src: local("Open Sans Semibold Italic"), local("OpenSans-SemiboldItalic"), url("http://themes.googleusercontent.com/static/fonts/opensans/v6/PRmiXeptR36kaC0GEAetxuw_rQOTGi-AJs5XCWaKIhU.woff") format("woff");
+}
+@font-face {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 600;
+    src: local("Open Sans Semibold"), local("OpenSans-Semibold"), url("http://themes.googleusercontent.com/static/fonts/opensans/v6/MTP_ySUJH_bn48VBG8sNSqRDOzjiPcYnFooOUGCOsRk.woff") format("woff");
+}
+@font-face {
+    font-family: "Open Sans";
+    font-style: italic;
+    font-weight: 400;
+    src: local("Open Sans Italic"), local("OpenSans-Italic"), url("http://themes.googleusercontent.com/static/fonts/opensans/v6/xjAJXh38I15wypJXxuGMBrrIa-7acMAeDBVuclsi6Gc.woff") format("woff");
+}
+@font-face {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    src: local("Open Sans"), local("OpenSans"), url("http://themes.googleusercontent.com/static/fonts/opensans/v6/cJZKeOuBrn4kERxqtaUH3bO3LdcAZYWl9Si6vvxL-qU.woff") format("woff");
+}
+[class^="icon-"]:before, [class*=" icon-"]:before {
+    display: inline-block;
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+}
+a [class^="icon-"], a [class*=" icon-"] {
+    display: inline-block;
+    text-decoration: inherit;
+}
+.icon-large:before {
+    font-size: 1.33333em;
+    vertical-align: top;
+}
+.btn [class^="icon-"], .btn [class*=" icon-"] {
+    line-height: 0.9em;
+}
+li [class^="icon-"], li [class*=" icon-"] {
+    display: inline-block;
+    text-align: center;
+    width: 1.25em;
+}
+li .icon-large[class^="icon-"], li .icon-large[class*=" icon-"] {
+    width: 1.875em;
+}
+li[class^="icon-"], li[class*=" icon-"] {
+    list-style-type: none;
+    margin-left: 0;
+}
+li[class^="icon-"]:before, li[class*=" icon-"]:before {
+    text-align: center;
+    text-indent: -2em;
+}
+li.icon-large[class^="icon-"]:before, li.icon-large[class*=" icon-"]:before {
+    text-indent: -1.33333em;
+}
+.icon-glass:before {
+    content: "";
+}
+.icon-music:before {
+    content: "";
+}
+.icon-search:before {
+    content: "";
+}
+.icon-envelope:before {
+    content: "";
+}
+.icon-heart:before {
+    content: "";
+}
+.icon-star:before {
+    content: "";
+}
+.icon-star-empty:before {
+    content: "";
+}
+.icon-user:before {
+    content: "";
+}
+.icon-film:before {
+    content: "";
+}
+.icon-th-large:before {
+    content: "";
+}
+.icon-th:before {
+    content: "";
+}
+.icon-th-list:before {
+    content: "";
+}
+.icon-ok:before {
+    content: "";
+}
+.icon-remove:before {
+    content: "";
+}
+.icon-zoom-in:before {
+    content: "";
+}
+.icon-zoom-out:before {
+    content: "";
+}
+.icon-off:before {
+    content: "";
+}
+.icon-signal:before {
+    content: "";
+}
+.icon-cog:before {
+    content: "";
+}
+.icon-trash:before {
+    content: "";
+}
+.icon-home:before {
+    content: "";
+}
+.icon-file:before {
+    content: "";
+}
+.icon-time:before {
+    content: "";
+}
+.icon-road:before {
+    content: "";
+}
+.icon-download-alt:before {
+    content: "";
+}
+.icon-download:before {
+    content: "";
+}
+.icon-upload:before {
+    content: "";
+}
+.icon-inbox:before {
+    content: "";
+}
+.icon-play-circle:before {
+    content: "";
+}
+.icon-repeat:before {
+    content: "";
+}
+.icon-refresh:before {
+    content: "";
+}
+.icon-list-alt:before {
+    content: "";
+}
+.icon-lock:before {
+    content: "";
+}
+.icon-flag:before {
+    content: "";
+}
+.icon-headphones:before {
+    content: "";
+}
+.icon-volume-off:before {
+    content: "";
+}
+.icon-volume-down:before {
+    content: "";
+}
+.icon-volume-up:before {
+    content: "";
+}
+.icon-qrcode:before {
+    content: "";
+}
+.icon-barcode:before {
+    content: "";
+}
+.icon-tag:before {
+    content: "";
+}
+.icon-tags:before {
+    content: "";
+}
+.icon-book:before {
+    content: "";
+}
+.icon-bookmark:before {
+    content: "";
+}
+.icon-print:before {
+    content: "";
+}
+.icon-camera:before {
+    content: "";
+}
+.icon-font:before {
+    content: "";
+}
+.icon-bold:before {
+    content: "";
+}
+.icon-italic:before {
+    content: "";
+}
+.icon-text-height:before {
+    content: "";
+}
+.icon-text-width:before {
+    content: "";
+}
+.icon-align-left:before {
+    content: "";
+}
+.icon-align-center:before {
+    content: "";
+}
+.icon-align-right:before {
+    content: "";
+}
+.icon-align-justify:before {
+    content: "";
+}
+.icon-list:before {
+    content: "";
+}
+.icon-indent-left:before {
+    content: "";
+}
+.icon-indent-right:before {
+    content: "";
+}
+.icon-facetime-video:before {
+    content: "";
+}
+.icon-picture:before {
+    content: "";
+}
+.icon-pencil:before {
+    content: "";
+}
+.icon-map-marker:before {
+    content: "";
+}
+.icon-adjust:before {
+    content: "";
+}
+.icon-tint:before {
+    content: "";
+}
+.icon-edit:before {
+    content: "";
+}
+.icon-share:before {
+    content: "";
+}
+.icon-check:before {
+    content: "";
+}
+.icon-move:before {
+    content: "";
+}
+.icon-step-backward:before {
+    content: "";
+}
+.icon-fast-backward:before {
+    content: "";
+}
+.icon-backward:before {
+    content: "";
+}
+.icon-play:before {
+    content: "";
+}
+.icon-pause:before {
+    content: "";
+}
+.icon-stop:before {
+    content: "";
+}
+.icon-forward:before {
+    content: "";
+}
+.icon-fast-forward:before {
+    content: "";
+}
+.icon-step-forward:before {
+    content: "";
+}
+.icon-eject:before {
+    content: "";
+}
+.icon-chevron-left:before {
+    content: "";
+}
+.icon-chevron-right:before {
+    content: "";
+}
+.icon-plus-sign:before {
+    content: "";
+}
+.icon-minus-sign:before {
+    content: "";
+}
+.icon-remove-sign:before {
+    content: "";
+}
+.icon-ok-sign:before {
+    content: "";
+}
+.icon-question-sign:before {
+    content: "";
+}
+.icon-info-sign:before {
+    content: "";
+}
+.icon-screenshot:before {
+    content: "";
+}
+.icon-remove-circle:before {
+    content: "";
+}
+.icon-ok-circle:before {
+    content: "";
+}
+.icon-ban-circle:before {
+    content: "";
+}
+.icon-arrow-left:before {
+    content: "";
+}
+.icon-arrow-right:before {
+    content: "";
+}
+.icon-arrow-up:before {
+    content: "";
+}
+.icon-arrow-down:before {
+    content: "";
+}
+.icon-share-alt:before {
+    content: "";
+}
+.icon-resize-full:before {
+    content: "";
+}
+.icon-resize-small:before {
+    content: "";
+}
+.icon-plus:before {
+    content: "";
+}
+.icon-minus:before {
+    content: "";
+}
+.icon-asterisk:before {
+    content: "";
+}
+.icon-exclamation-sign:before {
+    content: "";
+}
+.icon-gift:before {
+    content: "";
+}
+.icon-leaf:before {
+    content: "";
+}
+.icon-fire:before {
+    content: "";
+}
+.icon-eye-open:before {
+    content: "";
+}
+.icon-eye-close:before {
+    content: "";
+}
+.icon-warning-sign:before {
+    content: "";
+}
+.icon-plane:before {
+    content: "";
+}
+.icon-calendar:before {
+    content: "";
+}
+.icon-random:before {
+    content: "";
+}
+.icon-comment:before {
+    content: "";
+}
+.icon-magnet:before {
+    content: "";
+}
+.icon-chevron-up:before {
+    content: "";
+}
+.icon-chevron-down:before {
+    content: "";
+}
+.icon-retweet:before {
+    content: "";
+}
+.icon-shopping-cart:before {
+    content: "";
+}
+.icon-folder-close:before {
+    content: "";
+}
+.icon-folder-open:before {
+    content: "";
+}
+.icon-resize-vertical:before {
+    content: "";
+}
+.icon-resize-horizontal:before {
+    content: "";
+}
+.icon-bar-chart:before {
+    content: "";
+}
+.icon-twitter-sign:before {
+    content: "";
+}
+.icon-facebook-sign:before {
+    content: "";
+}
+.icon-camera-retro:before {
+    content: "";
+}
+.icon-key:before {
+    content: "";
+}
+.icon-cogs:before {
+    content: "";
+}
+.icon-comments:before {
+    content: "";
+}
+.icon-thumbs-up:before {
+    content: "";
+}
+.icon-thumbs-down:before {
+    content: "";
+}
+.icon-star-half:before {
+    content: "";
+}
+.icon-heart-empty:before {
+    content: "";
+}
+.icon-signout:before {
+    content: "";
+}
+.icon-linkedin-sign:before {
+    content: "";
+}
+.icon-pushpin:before {
+    content: "";
+}
+.icon-external-link:before {
+    content: "";
+}
+.icon-signin:before {
+    content: "";
+}
+.icon-trophy:before {
+    content: "";
+}
+.icon-github-sign:before {
+    content: "";
+}
+.icon-upload-alt:before {
+    content: "";
+}
+.icon-lemon:before {
+    content: "";
+}
+.icon-phone:before {
+    content: "";
+}
+.icon-check-empty:before {
+    content: "";
+}
+.icon-bookmark-empty:before {
+    content: "";
+}
+.icon-phone-sign:before {
+    content: "";
+}
+.icon-twitter:before {
+    content: "";
+}
+.icon-facebook:before {
+    content: "";
+}
+.icon-github:before {
+    content: "";
+}
+.icon-unlock:before {
+    content: "";
+}
+.icon-credit-card:before {
+    content: "";
+}
+.icon-rss:before {
+    content: "";
+}
+.icon-hdd:before {
+    content: "";
+}
+.icon-bullhorn:before {
+    content: "";
+}
+.icon-bell:before {
+    content: "";
+}
+.icon-certificate:before {
+    content: "";
+}
+.icon-hand-right:before {
+    content: "";
+}
+.icon-hand-left:before {
+    content: "";
+}
+.icon-hand-up:before {
+    content: "";
+}
+.icon-hand-down:before {
+    content: "";
+}
+.icon-circle-arrow-left:before {
+    content: "";
+}
+.icon-circle-arrow-right:before {
+    content: "";
+}
+.icon-circle-arrow-up:before {
+    content: "";
+}
+.icon-circle-arrow-down:before {
+    content: "";
+}
+.icon-globe:before {
+    content: "";
+}
+.icon-wrench:before {
+    content: "";
+}
+.icon-tasks:before {
+    content: "";
+}
+.icon-filter:before {
+    content: "";
+}
+.icon-briefcase:before {
+    content: "";
+}
+.icon-fullscreen:before {
+    content: "";
+}
+.icon-group:before {
+    content: "";
+}
+.icon-link:before {
+    content: "";
+}
+.icon-cloud:before {
+    content: "";
+}
+.icon-beaker:before {
+    content: "";
+}
+.icon-cut:before {
+    content: "";
+}
+.icon-copy:before {
+    content: "";
+}
+.icon-paper-clip:before {
+    content: "";
+}
+.icon-save:before {
+    content: "";
+}
+.icon-sign-blank:before {
+    content: "";
+}
+.icon-reorder:before {
+    content: "";
+}
+.icon-list-ul:before {
+    content: "";
+}
+.icon-list-ol:before {
+    content: "";
+}
+.icon-strikethrough:before {
+    content: "";
+}
+.icon-underline:before {
+    content: "";
+}
+.icon-table:before {
+    content: "";
+}
+.icon-magic:before {
+    content: "";
+}
+.icon-truck:before {
+    content: "";
+}
+.icon-pinterest:before {
+    content: "";
+}
+.icon-pinterest-sign:before {
+    content: "";
+}
+.icon-google-plus-sign:before {
+    content: "";
+}
+.icon-google-plus:before {
+    content: "";
+}
+.icon-money:before {
+    content: "";
+}
+.icon-caret-down:before {
+    content: "";
+}
+.icon-caret-up:before {
+    content: "";
+}
+.icon-caret-left:before {
+    content: "";
+}
+.icon-caret-right:before {
+    content: "";
+}
+.icon-columns:before {
+    content: "";
+}
+.icon-sort:before {
+    content: "";
+}
+.icon-sort-down:before {
+    content: "";
+}
+.icon-sort-up:before {
+    content: "";
+}
+.icon-envelope-alt:before {
+    content: "";
+}
+.icon-linkedin:before {
+    content: "";
+}
+.icon-undo:before {
+    content: "";
+}
+.icon-legal:before {
+    content: "";
+}
+.icon-dashboard:before {
+    content: "";
+}
+.icon-comment-alt:before {
+    content: "";
+}
+.icon-comments-alt:before {
+    content: "";
+}
+.icon-bolt:before {
+    content: "";
+}
+.icon-sitemap:before {
+    content: "";
+}
+.icon-umbrella:before {
+    content: "";
+}
+.icon-paste:before {
+    content: "";
+}
+.icon-user-md:before {
+    content: "";
+}
+.facebook {
+    background-color: #5D83BA;
+    background-image: -moz-linear-gradient(50% 0 -90deg, #7192C2 0px, #4873B1 100%);
+    border-radius: 3px 3px 3px 3px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.75), 0 1px 0 rgba(255, 255, 255, 0.25) inset;
+    color: white;
+    display: block;
+    font-family: 'SocialGlyphs';
+    font-size: 16px;
+    height: 22px;
+    line-height: 1.6;
+    text-align: center;
+    text-decoration: none;
+    text-indent: 8px;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.35);
+    width: 22px;
+}
+.facebook:after {
+    content: "A";
+}
+.twitter {
+    background-color: #37AFD7;
+    background-image: -moz-linear-gradient(50% 0 -90deg, #6DC5E2 0%, #079CCE 100%);
+    border-radius: 3px 3px 3px 3px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.75), 0 1px 0 rgba(255, 255, 255, 0.25) inset;
+    color: white;
+    display: block;
+    font-family: 'SocialGlyphs';
+    font-size: 13px;
+    font-weight: 100;
+    height: 22px;
+    line-height: 1.8;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.35);
+    width: 22px;
+}
+.twitter:after {
+    content: "B";
+}
+.google {
+    background-color: #404040;
+    background-image: -moz-linear-gradient(50% 0 -90deg, #515151 0%, #353535 100%);
+    border-radius: 3px 3px 3px 3px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.75), 0 1px 0 rgba(255, 255, 255, 0.25) inset;
+    color: white;
+    display: block;
+    font-family: 'SocialGlyphs';
+    font-size: 13px;
+    font-weight: 100;
+    height: 22px;
+    line-height: 1.8;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.35);
+    width: 22px;
+}
+.google:after {
+    content: "C";
+}
+.myspace {
+    background-color: #404040;
+    background-image: -moz-linear-gradient(50% 0 -90deg, #515151 0%, #353535 100%);
+    border-radius: 3px 3px 3px 3px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.75), 0 1px 0 rgba(255, 255, 255, 0.25) inset;
+    color: white;
+    display: block;
+    font-family: 'SocialGlyphs';
+    font-size: 17px;
+    font-weight: 100;
+    height: 22px;
+    line-height: 1.2;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.35);
+    width: 22px;
+}
+.myspace:after {
+    content: "D";
+}
+.linkedin {
+    background-color: #4B9DCA;
+    background-image: -moz-linear-gradient(50% 0 -90deg, #63AAD1 0%, #3691C4 100%);
+    border-radius: 3px 3px 3px 3px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.75), 0 1px 0 rgba(255, 255, 255, 0.25) inset;
+    color: white;
+    display: block;
+    font-family: 'SocialGlyphs';
+    font-size: 13px;
+    font-weight: 100;
+    height: 22px;
+    line-height: 1.8;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.35);
+    width: 22px;
+}
+.linkedin:after {
+    content: "E";
+}
+.feed {
+    background-color: #FEBB2F;
+    background-image: -moz-linear-gradient(50% 0 -90deg, #FEC651 0%, #FEAF0C 100%);
+    border-radius: 3px 3px 3px 3px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.75), 0 1px 0 rgba(255, 255, 255, 0.25) inset;
+    color: white;
+    display: block;
+    font-family: 'SocialGlyphs';
+    font-size: 15px;
+    font-weight: 100;
+    height: 22px;
+    line-height: 1.5;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.35);
+    width: 22px;
+}
+.feed:after {
+    content: "F";
+}
+.lastfm {
+    background-color: #D3230A;
+    background-image: -moz-linear-gradient(50% 0 -90deg, #DB4A36 0%, #D11A00 100%);
+    border-radius: 3px 3px 3px 3px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.75), 0 1px 0 rgba(255, 255, 255, 0.25) inset;
+    color: white;
+    display: block;
+    font-family: 'SocialGlyphs';
+    font-size: 14px;
+    font-weight: 100;
+    height: 22px;
+    line-height: 1.6;
+    text-align: center;
+    text-decoration: none;
+    text-indent: -2px;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.35);
+    width: 22px;
+}
+.lastfm:after {
+    content: "G";
+}
+.vimeo {
+    background-color: #95B93E;
+    background-image: -moz-linear-gradient(50% 0 -90deg, #A2C156 0%, #89B12A 100%);
+    border-radius: 3px 3px 3px 3px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.75), 0 1px 0 rgba(255, 255, 255, 0.25) inset;
+    color: white;
+    display: block;
+    font-family: 'SocialGlyphs';
+    font-size: 13px;
+    font-weight: 100;
+    height: 22px;
+    line-height: 1.8;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.35);
+    width: 22px;
+}
+.vimeo:after {
+    content: "H";
+}
+.youtube {
+    background-color: #D3230A;
+    background-image: -moz-linear-gradient(50% 0 -90deg, #DC4F3B 0%, #D11A00 100%);
+    border-radius: 3px 3px 3px 3px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.75), 0 1px 0 rgba(255, 255, 255, 0.25) inset;
+    color: white;
+    display: block;
+    font-family: 'SocialGlyphs';
+    font-size: 13px;
+    font-weight: 100;
+    height: 22px;
+    line-height: 1.7;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.35);
+    width: 22px;
+}
+.youtube:after {
+    content: "I";
+}
+.dribbble {
+    background-color: #E06192;
+    background-image: -moz-linear-gradient(50% 0 -90deg, #E4749F 0%, #DB4780 100%);
+    border-radius: 3px 3px 3px 3px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.75), 0 1px 0 rgba(255, 255, 255, 0.25) inset;
+    color: white;
+    display: block;
+    font-family: 'SocialGlyphs';
+    font-size: 15px;
+    font-weight: 100;
+    height: 22px;
+    line-height: 1.5;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.35);
+    width: 22px;
+}
+.dribbble:after {
+    content: "J";
+}
+.forrst {
+    background-color: #538950;
+    background-image: -moz-linear-gradient(50% 0 -90deg, #719E6E 0%, #4F864B 100%);
+    border-radius: 3px 3px 3px 3px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.75), 0 1px 0 rgba(255, 255, 255, 0.25) inset;
+    color: white;
+    display: block;
+    font-family: 'SocialGlyphs';
+    font-size: 17px;
+    font-weight: 100;
+    height: 22px;
+    line-height: 1.4;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.35);
+    width: 22px;
+}
+.forrst:after {
+    content: "K";
+}
+.gowalla {
+    background-color: #EC7B31;
+    background-image: -moz-linear-gradient(50% 0 -90deg, #EF9254 0%, #EB7223 100%);
+    border-radius: 3px 3px 3px 3px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.75), 0 1px 0 rgba(255, 255, 255, 0.25) inset;
+    color: white;
+    display: block;
+    font-family: 'SocialGlyphs';
+    font-size: 15px;
+    font-weight: 100;
+    height: 22px;
+    line-height: 1.6;
+    text-align: center;
+    text-decoration: none;
+    text-indent: -2px;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.35);
+    width: 22px;
+}
+.gowalla:after {
+    content: "L";
+}
+.skype {
+    background-color: #37AFD7;
+    background-image: -moz-linear-gradient(50% 0 -90deg, #4DD4FB 0%, #1AC8FA 100%);
+    border-radius: 3px 3px 3px 3px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.75), 0 1px 0 rgba(255, 255, 255, 0.25) inset;
+    color: white;
+    display: block;
+    font-family: 'SocialGlyphs';
+    font-size: 15px;
+    font-weight: 100;
+    height: 22px;
+    line-height: 1.5;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.35);
+    width: 22px;
+}
+.skype:after {
+    content: "M";
+}
+.tumblr {
+    background-color: #466684;
+    background-image: -moz-linear-gradient(50% 0 -90deg, #6A839C 0%, #3D5E7E 100%);
+    border-radius: 3px 3px 3px 3px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.75), 0 1px 0 rgba(255, 255, 255, 0.25) inset;
+    color: white;
+    display: block;
+    font-family: 'SocialGlyphs';
+    font-size: 13px;
+    font-weight: 100;
+    height: 22px;
+    line-height: 1.8;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.35);
+    width: 22px;
+}
+.tumblr:after {
+    content: "N";
+}
+.wordpress {
+    background-color: #337EA1;
+    background-image: -moz-linear-gradient(50% 0 -90deg, #4D8EAD 0%, #227399 100%);
+    border-radius: 3px 3px 3px 3px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.75), 0 1px 0 rgba(255, 255, 255, 0.25) inset;
+    color: white;
+    display: block;
+    font-family: 'SocialGlyphs';
+    font-size: 18px;
+    font-weight: 100;
+    height: 22px;
+    line-height: 1.3;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.35);
+    width: 22px;
+}
+.wordpress:after {
+    content: "O";
+}
+.blogger {
+    background-color: #EC7B31;
+    background-image: -moz-linear-gradient(50% 0 -90deg, #EF8F51 0%, #EB7223 100%);
+    border-radius: 3px 3px 3px 3px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.75), 0 1px 0 rgba(255, 255, 255, 0.25) inset;
+    color: white;
+    display: block;
+    font-family: 'SocialGlyphs';
+    font-size: 13px;
+    font-weight: 100;
+    height: 22px;
+    line-height: 1.8;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.35);
+    width: 22px;
+}
+.blogger:after {
+    content: "P";
+}
+.digg {
+    background-color: #3F7AB2;
+    background-image: -moz-linear-gradient(50% 0 -90deg, #588BBC 0%, #2A6BAA 100%);
+    border-radius: 3px 3px 3px 3px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.75), 0 1px 0 rgba(255, 255, 255, 0.25) inset;
+    color: white;
+    display: block;
+    font-family: 'SocialGlyphs';
+    font-size: 17px;
+    font-weight: 100;
+    height: 22px;
+    line-height: 1.2;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.35);
+    width: 22px;
+}
+.digg:after {
+    content: "Q";
+}
+.stumbleupon {
+    background-color: #EC7B31;
+    background-image: -moz-linear-gradient(50% 0 -90deg, #EF734E 0%, #EB4B1B 100%);
+    border-radius: 3px 3px 3px 3px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.75), 0 1px 0 rgba(255, 255, 255, 0.25) inset;
+    color: white;
+    display: block;
+    font-family: 'SocialGlyphs';
+    font-size: 14px;
+    font-weight: 100;
+    height: 22px;
+    line-height: 1.5;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.35);
+    width: 22px;
+}
+.stumbleupon:after {
+    content: "R";
+}
+.pinterest {
+    background-color: #D3230A;
+    background-image: -moz-linear-gradient(50% 0 -90deg, #D23F45 0%, #CB1F27 100%);
+    border-radius: 3px 3px 3px 3px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.75), 0 1px 0 rgba(255, 255, 255, 0.25) inset;
+    color: white;
+    display: block;
+    font-family: 'SocialGlyphs';
+    font-size: 13px;
+    font-weight: 100;
+    height: 22px;
+    line-height: 1.8;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.35);
+    width: 22px;
+}
+.pinterest:after {
+    content: "S";
+}
+.flickr {
+    background-color: #EEEEEE;
+    background-image: -moz-linear-gradient(50% 0 -90deg, #FFFFFF 0%, #DDDDDD 100%);
+    border-radius: 3px 3px 3px 3px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.75), 0 1px 0 rgba(255, 255, 255, 0.25) inset;
+    color: white;
+    display: block;
+    font-family: 'SocialGlyphs';
+    font-size: 13px;
+    font-weight: 100;
+    height: 22px;
+    line-height: 1.5;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.35);
+    width: 22px;
+}
+.cyan {
+    color: #0B6DD9;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.65);
+}
+.magenta {
+    color: #E23A7D;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.65);
+}
+.cyan:after, .magenta:after {
+    content: "T";
+}
+.yahoo {
+    background-color: #96429B;
+    background-image: -moz-linear-gradient(50% 0 -90deg, #A359A7 0%, #8A2B8F 100%);
+    border-radius: 3px 3px 3px 3px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.75), 0 1px 0 rgba(255, 255, 255, 0.25) inset;
+    color: white;
+    display: block;
+    font-family: 'SocialGlyphs';
+    font-size: 13px;
+    font-weight: 100;
+    height: 22px;
+    line-height: 1.6;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.35);
+    width: 22px;
+}
+.yahoo:after {
+    content: "U";
+}
+.deviantart {
+    background-color: #5D7163;
+    background-image: -moz-linear-gradient(50% 0 -90deg, #728377 0%, #54685A 100%);
+    border-radius: 3px 3px 3px 3px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.75), 0 1px 0 rgba(255, 255, 255, 0.25) inset;
+    color: white;
+    display: block;
+    font-family: 'SocialGlyphs';
+    font-size: 17px;
+    font-weight: 100;
+    height: 22px;
+    line-height: 1.1;
+    text-align: center;
+    text-decoration: none;
+    text-indent: 2px;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.35);
+    width: 22px;
+}
+.deviantart:after {
+    content: "V";
+}
+.behance {
+    background-color: #1B97F7;
+    background-image: -moz-linear-gradient(50% 0 -90deg, #3AA5F8 0%, #018BF6 100%);
+    border-radius: 3px 3px 3px 3px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.75), 0 1px 0 rgba(255, 255, 255, 0.25) inset;
+    color: white;
+    display: block;
+    font-family: 'SocialGlyphs';
+    font-size: 13px;
+    font-weight: 100;
+    height: 22px;
+    line-height: 1.5;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.35);
+    width: 22px;
+}
+.behance:after {
+    content: "W";
+}
+.sharethis {
+    background-color: #38AA59;
+    background-image: -moz-linear-gradient(50% 0 -90deg, #54B570 0%, #27A24B 100%);
+    border-radius: 3px 3px 3px 3px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.75), 0 1px 0 rgba(255, 255, 255, 0.25) inset;
+    color: white;
+    display: block;
+    font-family: 'SocialGlyphs';
+    font-size: 13px;
+    font-weight: 100;
+    height: 22px;
+    line-height: 1.8;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.35);
+    width: 22px;
+}
+.sharethis:after {
+    content: "X";
+}
