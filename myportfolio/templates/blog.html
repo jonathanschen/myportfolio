@@ -1,0 +1,58 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="container">
+	<div class="span12">
+	<div class="row">
+		<div class="span2 vertical-menu">
+			<div id="sidebar">
+			<br />
+			<br />
+			<br />
+			<br />
+			<br />
+			<br />
+			<br />
+			<br />
+			<h2>Archive</h2><br />
+			{% for month in months %}
+				<a href="{% url jonathanschen.views.month month.0 month.1 %}">{{ month.2 }}</a><br />
+			{% endfor %}
+			</div>
+		</div>
+		<div class="span10">
+				<h2>Blog</h2>					
+				{% for post in post_list %}
+					<span class="desc">
+						<h3><a href="single.html">{{ post.title }}</a></h3>
+						Posted by:
+						<strong>Jonathan Chen</strong>
+						| Posted on: 
+						<strong>{{ post.created }}</strong>
+						<div class="body">{{ post.body|linebreaks }}</div>
+					</span>	
+					<br>
+					<hr>
+				{% endfor %}
+				{% if posts.object_list and posts.paginator.num_pages > 1 %}
+				<div class="pagination" style="margin-top: 20px; margin-left: -20px; ">
+					<span class="step-links">
+						{% if posts.has_previous %}
+							<a href= "?page={{ posts.previous_page_number }}">newer entries</a>
+						{% endif %}
+						<span class="current">
+							&nbsp;Page {{ posts.number }} of {{ posts.paginator.num_pages }}
+						</span>
+						{% if posts.has_next %}
+							<a href="?page={{ posts.next_page_number }}">older entries</a>
+						{% endif %}
+					</span>
+				</div>
+				{% endif %}
+		
+			</div>
+		</div>
+	</div>
+</div>
+
+{% endblock %}
