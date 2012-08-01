@@ -1,4 +1,7 @@
 import dj_database_url
+import os.path
+
+PROJECT_DIR = os.path.dirname(__file__) 
 
 DEBUG = True
 TEMPLATE_DEBUG = DEBUG
@@ -103,7 +106,7 @@ TEMPLATE_DIRS = (
     # Put strings here, like "/home/html/django_templates" or "C:/www/django/templates".
     # Always use forward slashes, even on Windows.
     # Don't forget to use absolute paths, not relative paths.
-    '/Users/jonathanschen/Python/projects/skeleton/myportfolio/templates',
+    os.path.join(PROJECT_DIR, "templates"),
 )
 
 INSTALLED_APPS = (
